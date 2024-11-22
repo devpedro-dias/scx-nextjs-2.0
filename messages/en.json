@@ -1,0 +1,56 @@
+{
+    "header": {
+        "Home": "Home",
+        "Frete Aéreo": "Air Freight",
+        "Frete Marítimo": "Sea Freight",
+        "Desembaraço Aduaneiro": "Customs Clearance",
+        "Transporte Rodoviário": "Road Transport",
+        "Seguro de Carga": "Cargo Insurance",
+        "Contato": "Contact"
+    },
+    "Home": {
+        "h1": "Welcome to SCX",
+        "hero": {
+            "title": "Welcome to",
+            "subtitle": "SCX Agenciamentos Marítimos",
+            "desc": "In SCX Agenciamentos Marítimos, we offer efficient and reliable transportation solutions for all your transportation needs in all the continents of the world."
+        },
+        "services": {
+            "freight_title": "The SCX Agenciamentos Department is divided into several subdivisions to ensure a high-quality service to our customers.",
+            "freight_description": "Flexibility and efficiency.",
+            "insurance_title": "Insurance and complete logistical support for your cargo.",
+            "insurance_description": "We ensure total protection for your goods.",
+            "customer_focus_title": "We are a company focused on customer satisfaction, safety, and quality.",
+            "customer_focus_description": "We value efficiency and punctuality.",
+            "specialized_team_title": "Our specialized team ensures your cargo arrives on time and with complete safety.",
+            "specialized_team_description": "We are committed to offering comprehensive logistics support.",
+            "international_logistics_title": "Comprehensive solutions for international logistics.",
+            "international_logistics_description": "We have a specialized team to meet your needs.",
+            "email_copied": "Email was copied!",
+            "copy_email": "Copy email"
+        },
+        "contact": {
+            "title": "Get in Touch with Our Team",
+            "content-1": "Our experienced professionals ensure the swift and efficient clearance of goods through our electronic customs clearance network. We are committed to providing consistent and reliable services in a timely and professional manner.",
+            "content-2": "SCX AGENCIAMENTOS covers all major global airports, offering quality services at competitive rates. We maintain partnerships with various qualified companies committed to providing safe, efficient, and timely services worldwide.",
+            "content-3": "If you are interested in our rates, request a quote. We will respond within 24 hours. Please note that we also offer solutions for optimizing your logistics.",
+            "button": "Contact Us"
+        },
+        "footer": {
+            "navigation": "Navigation",
+            "contact": "Contact",
+            "social-medias": "Social Medias",
+            "add-infos": {
+                "title": "Additional Informations",
+                "siscomex": "Siscomex Portal",
+                "central-bank": "Brazil Central Bank",
+                "federal-revenue": "Federal Revenue Service",
+                "anvisa": "Anvisa",
+                "vigiagro": "Vigiagro",
+                "inmetro": "Inmetro",
+                "mdic": "MDIC"
+            },
+            "developed-by": "Developed by"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "header": {
+        "Home": "Home",
+        "Frete Aéreo": "Frete Aéreo",
+        "Frete Marítimo": "Frete Marítimo",
+        "Desembaraço Aduaneiro": "Desembaraço Aduaneiro",
+        "Transporte Rodoviário": "Transporte Rodoviário",
+        "Seguro de Carga": "Seguro de Carga",
+        "Contato": "Contato"
+    },
+    "Home": {
+        "h1": "Bem-vindo ao SCX",
+        "hero": {
+            "title": "Bem vindo à",
+            "subtitle": "SCX Agenciamentos Marítimos",
+            "desc": "Na SCX AGENCIAMENTOS MARÍTIMOS, por meio de experiência em transporte, fornecemos soluções eficientes de transportes de cargas em todos os continentes de forma rápida e eficaz."
+        },
+        "services": {
+            "freight_title": "O departamento de frete da SCX Agenciamentos é dividido em várias subdivisões e garante que ele ofereça um serviço de qualidade aos clientes.",
+            "freight_description": "Flexibilidade e eficiência.",
+            "insurance_title": "Seguros e suporte logístico completo para suas cargas.",
+            "insurance_description": "Garantimos proteção total para suas mercadorias.",
+            "customer_focus_title": "Somos uma empresa focada na satisfação do cliente, segurança e qualidade.",
+            "customer_focus_description": "Prezamos pela eficiência e pontualidade.",
+            "specialized_team_title": "Nosso time especializado assegura que sua carga chegue ao destino no prazo e com total segurança.",
+            "specialized_team_description": "Contamos em oferecer suporte logístico completo.",
+            "international_logistics_title": "Soluções completas para logística internacional.",
+            "international_logistics_description": "Contamos com uma equipe especializada para atender suas necessidades.",
+            "email_copied": "E-mail copiado!",
+            "copy_email": "Copiar e-mail"
+        },
+        "contact": {
+            "title": "Entre em contato com nosso time",
+            "content-1": "Nossos profissionais experientes garantem a liberação das mercadorias de forma rápida e eficiente por meio de nossa rede de desembaraço aduaneiro eletrônico. Temos o compromisso de fornecer serviços consistentes e confiáveis de maneira oportuna e profissional.",
+            "content-2": "A SCX AGENCIAMENTOS cobre todos os principais aeroportos globais, fornecendo serviços de qualidade e valores competitivos. Mantemos parcerias com várias companhias qualificadas e comprometidas em fornecer serviços seguros, eficientes e pontuais em todo mundo.",
+            "content-3": "Se você está interessado em nossa tarifa, solicite uma cotação. Responderemos em 24 horas. Esteja ciente de que também oferecemos soluções para sua melhor logística.",
+            "button": "Entre em contato"
+        },
+        "footer": {
+            "navigation": "Navegação",
+            "contact": "Contato",
+            "social-medias": "Redes Sociais",
+            "add-infos": {
+                "title": "Informações Adicionais",
+                "siscomex": "Portal Siscomex",
+                "central-bank": "Banco Central do Brasil",
+                "federal-revenue": "Receita Federal",
+                "anvisa": "Anvisa",
+                "vigiagro": "Vigiagro",
+                "inmetro": "Inmetro",
+                "mdic": "MDIC"
+            },
+            "developed-by": "Desenvolvido por"
+        }
+    }
+}
