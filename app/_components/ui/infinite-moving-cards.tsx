@@ -98,14 +98,14 @@ export const InfiniteMovingCards = ({
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex items-center justify-center min-w-[100%] w-auto gap-4 py-4 flex-nowrap",
+          "flex items-center justify-center min-w-[100%] w-full gap-4 py-4 flex-nowrap",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
         {items.map((item) => (
           <li
-            className="w-[16%] sm:max-w-[30%] lg:min-w-[30%] max-w-full relative rounded-2xl border-b border-2 flex-shrink-0 p-4" // tive que colocar um width maior, porque em produção w-[16%] fica minusculo, n entendi ainda o porque
+            className="w-[50%] sm:max-w-[40%] lg:min-w-[30%] max-w-full relative rounded-2xl border-b border-2 flex-shrink-0 p-4"
             key={item.codes}
           >
             <blockquote className="px-6">
