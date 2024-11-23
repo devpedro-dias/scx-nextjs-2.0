@@ -81,9 +81,9 @@ const Header = () => {
                 </div>
             </CardContent>
 
-            <CardContent>
+            <div>
                 <QuotationClient />
-            </CardContent>
+            </div>
         </Card>
     );
 };
