@@ -1,7 +1,8 @@
 "use client";
 
 import { cn } from "@/app/_lib/utils";
-import React, { useEffect, useState } from "react";
+import { useTranslations } from "next-intl";
+import React, { use, useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
   items,
@@ -85,11 +86,13 @@ export const InfiniteMovingCards = ({
 
   const currentDate = getFormattedDate();
 
+  const t = useTranslations("");
+
   return (
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 max-w-full overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-[140%] overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
@@ -130,6 +133,9 @@ export const InfiniteMovingCards = ({
                   </span>
                 </div>
               </div>
+              <small className="text-[10px] m-0 p-0 flex justify-end font-bold text-muted-foreground">
+                      {t("header.quotation.warning")}
+                    </small>
             </blockquote>
           </li>
         ))}
