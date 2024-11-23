@@ -1,6 +1,7 @@
 "use client";
 
 import { cn } from "@/app/_lib/utils";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
@@ -83,6 +84,9 @@ export const InfiniteMovingCards = ({
   };
 
   const currentDate = getFormattedDate();
+
+  const t = useTranslations("");
+
   return (
     <div
       ref={containerRef}
@@ -131,12 +135,14 @@ export const InfiniteMovingCards = ({
                       <span className=" relative z-20 text-base text-primary font-semibold text-end">
                         {item.bid}
                       </span>
-                      {/* <span className=" relative z-20 text-base text-red-500 font-semibold text-end ">
-                              - {item.ask}
-                          </span> */}
                     </div>
                   </div>
                 </span>
+                <div>
+                    <small className="text-[10px] m-0 p-0 flex justify-end font-bold text-muted-foreground">
+                      {t("header.quotation.warning")}
+                    </small>
+                </div>
               </div>
             </blockquote>
           </li>

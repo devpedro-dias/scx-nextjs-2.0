@@ -29,9 +29,9 @@ export default function QuotationClient() {
   const { data: eurData, error: eurError } = useSWR(eurUrl, fetcher);
 
   if (usdError || eurError)
-    return <div className="text-center">Erro ao carregar cotações</div>;
+    return <div className="text-center"></div>;
   if (!usdData || !eurData)
-    return <div className="text-center">Carregando...</div>;
+    return <div className="text-center"></div>;
 
   // Estrutura de dados das moedas
   const currencies = [

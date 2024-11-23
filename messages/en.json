@@ -6,7 +6,10 @@
         "Desembaraço Aduaneiro": "Customs Clearance",
         "Transporte Rodoviário": "Road Transport",
         "Seguro de Carga": "Cargo Insurance",
-        "Contato": "Contact"
+        "Contato": "Contact",
+        "quotation": {
+            "warning": "*On weekend not work"
+        }
     },
     "Home": {
         "h1": "Welcome to SCX",

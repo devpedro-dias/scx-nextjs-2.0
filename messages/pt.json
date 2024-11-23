@@ -6,7 +6,10 @@
         "Desembaraço Aduaneiro": "Desembaraço Aduaneiro",
         "Transporte Rodoviário": "Transporte Rodoviário",
         "Seguro de Carga": "Seguro de Carga",
-        "Contato": "Contato"
+        "Contato": "Contato",
+        "quotation": {
+            "warning": "*Fim de semana não funciona"
+        }
     },
     "Home": {
         "h1": "Bem-vindo ao SCX",
