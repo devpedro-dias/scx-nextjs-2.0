@@ -3,6 +3,7 @@ import { navbarItems, socialLinks, additionalLinks } from "../_lib";
 import Link from "next/link";
 import { useLocale, useTranslations } from "next-intl";
 import Image from "next/image";
+import { LinkPreview } from "./ui/link-preview";
 
 const Footer = () => {
   const t = useTranslations("");
@@ -71,13 +72,20 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center text-center lg:text-start gap-1 font-extralight text-background py-4 dark:text-[#EEEEEE]">
-        <p>Copyright &copy; 2024</p>
-        <Link href="https://pedrodiasdev.com" target="_blank">
-            <span className="underline">
-                {t("Home.footer.developed-by")}{" "}pedrodiasdev
-            </span>
-        </Link>
+      <div className="flex items-center justify-center text-center lg:text-start gap-1 font-extralight text-background py-4">
+        <p className="text-background dark:text-[#EEEEEE]">Copyright &copy; 2024</p>
+
+        <div className="flex gap-1">
+          <div>
+            <span className="text-background dark:text-[#EEEEEE]">{t("Home.footer.developed-by")}</span>
+          </div>
+        <LinkPreview
+          url="https://pedrodiasdev.com"
+          className="font-bold bg-clip-text text-background"
+        >
+          <span>pedrodiasdev</span>
+        </LinkPreview>
+        </div>
       </div>
     </section>
   );
