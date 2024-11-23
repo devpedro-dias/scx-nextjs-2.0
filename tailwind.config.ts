@@ -17,14 +17,13 @@ const config: Config = {
 	  'min-w-[100%]',
 	  'animate-scroll',
 	  'hover:[animation-play-state:paused]',
-	  // Adicione aqui outras classes que podem ser usadas dinamicamente.
 	],
 	theme: {
 	  extend: {
 		animation: {
-		  scroll:
-			"scroll var(--animation-duration, 10s) var(--animation-direction, forwards) linear infinite",
-		},
+			scroll:
+			  "scroll var(--animation-duration, 10s) var(--animation-direction, forwards) linear infinite",
+		  },				
 		keyframes: {
 		  scroll: {
 			to: {

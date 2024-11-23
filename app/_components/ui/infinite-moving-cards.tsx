@@ -1,8 +1,6 @@
 "use client";
 
 import { cn } from "@/app/_lib/utils";
-import { useTranslations } from "next-intl";
-import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -29,7 +27,9 @@ export const InfiniteMovingCards = ({
   useEffect(() => {
     addAnimation();
   }, []);
+
   const [start, setStart] = useState(false);
+
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
       const scrollerContent = Array.from(scrollerRef.current.children);
@@ -46,6 +46,7 @@ export const InfiniteMovingCards = ({
       setStart(true);
     }
   }
+
   const getDirection = () => {
     if (containerRef.current) {
       if (direction === "left") {
@@ -61,17 +62,16 @@ export const InfiniteMovingCards = ({
       }
     }
   };
+
   const getSpeed = () => {
     if (containerRef.current) {
-      let duration = "10s"; // Valor padrão para telas grandes
-
-      if (window.matchMedia("(max-width: 768px)").matches) {
-        duration = "2s";
-      } else if (window.matchMedia("(max-width: 1200px)").matches) {
-        duration = "5s";
+      if (speed === "fast") {
+        containerRef.current.style.setProperty("--animation-duration", "20s");
+      } else if (speed === "normal") {
+        containerRef.current.style.setProperty("--animation-duration", "40s");
+      } else {
+        containerRef.current.style.setProperty("--animation-duration", "80s");
       }
-
-      containerRef.current.style.setProperty("--animation-duration", duration);
     }
   };
 
@@ -85,63 +85,49 @@ export const InfiniteMovingCards = ({
 
   const currentDate = getFormattedDate();
 
-  const t = useTranslations("");
-
   return (
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20 overflow-hidden w-full [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 max-w-7xl overflow-hidden [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
       <ul
         ref={scrollerRef}
         className={cn(
-          "flex items-center justify-center min-w-[100%] w-full gap-4 py-4 flex-nowrap",
+          "flex min-w-full shrink-0 gap-4 py-4 w-max flex-nowrap",
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item) => (
+        {items.map((item, idx) => (
           <li
-            className="w-[60%] sm:max-w-[40%] lg:max-w-[30%] max-w-full relative rounded-2xl border-b border-2 flex-shrink-0 p-4"
-            key={item.codes}
+            className="w-[350px] max-w-full relative rounded-2xl border-2 border-b flex-shrink-0 border-border-foreground px-8 py-6 md:w-[450px]"
+            key={idx}
           >
-            <blockquote className="px-6">
-              <div className="z-20">
-                <span className="flex flex-col gap-4">
-                  <div className="flex justify-between">
-                    <span className=" text-base leading-[1] text-primary font-semibold dark:text-foreground">
-                      {item.codes}
-                    </span>
-                    <span className=" text-base leading-[1] text-primary font-semibold dark:text-foreground">
-                      {currentDate}
-                    </span>
-                  </div>
-
-                  <div className="flex justify-between">
-                    <div>
-                      <span className="text-xl leading-[1] ">
-                        <Image
-                          src={item.img}
-                          alt={item.codes}
-                          width={46}
-                          height={46}
-                        />
-                      </span>
-                    </div>
-                    <div className="flex flex-col">
-                      <span className=" relative z-20 text-base text-primary font-semibold text-end">
-                        {item.bid}
-                      </span>
-                    </div>
-                  </div>
+            <blockquote>
+              <div
+                aria-hidden="true"
+                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
+              ></div>
+              <div className="flex justify-between">
+                <span className="relative z-20 text-base leading-[1] text-primary dark:text-[#EEEEEE] font-semibold">
+                  {item.codes}
                 </span>
-                <div>
-                    <small className="text-[10px] m-0 p-0 flex justify-end font-bold text-muted-foreground">
-                      {t("header.quotation.warning")}
-                    </small>
+                <span className="relative z-20 text-base leading-[1] text-primary dark:text-[#EEEEEE] font-semibold">
+                  {currentDate}
+                </span>
+              </div>
+
+              <div className="relative z-20 flex items-center mt-4 w-full">
+                {" "}
+                <div className="flex items-center justify-between w-full">
+                  {" "}
+                  <img src={item.img} alt={item.codes} className="w-10 h-10" />
+                  <span className="text-base leading-[1] text-primary dark:text-[#EEEEEE] font-semibold">
+                    {item.bid}
+                  </span>
                 </div>
               </div>
             </blockquote>

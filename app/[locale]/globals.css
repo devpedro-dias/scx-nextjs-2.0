@@ -12,6 +12,18 @@ body.scroller {
   overflow-x: hidden;
 }
 
+.scroller {
+  --animation-duration: 40s;
+  --animation-direction: forwards;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.animate-scroll {
+  display: flex;
+  animation: scroll var(--animation-duration) linear infinite var(--animation-direction);
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -46,6 +58,7 @@ body {
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     --border: 0 0% 89.8%;
+    --border-foreground: 0 0% 50%;
     --input: 0 0% 89.8%;
     --ring: 0 0% 3.9%;
     --chart-1: 12 76% 61%;

@@ -53,7 +53,6 @@ export default function QuotationClient() {
     },
   ];
 
-  // Mapeamento dos dados para exibição
   const items = currencies.map((currency) => ({
     img: currency.image,
     codes: `${currency.code} / BRL`,
