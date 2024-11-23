@@ -94,7 +94,7 @@ export const ImagesSlider = ({
       rotateX: 0,
       opacity: 1,
       transition: {
-        duration: 0.5,
+        duration: 0.9,
         ease: [0.645, 0.045, 0.355, 1.0],
       },
     },
@@ -102,14 +102,14 @@ export const ImagesSlider = ({
       opacity: 1,
       y: "-150%",
       transition: {
-        duration: 1,
+        duration: .5,
       },
     },
     downExit: {
       opacity: 1,
       y: "150%",
       transition: {
-        duration: 1,
+        duration: .5,
       },
     },
   };

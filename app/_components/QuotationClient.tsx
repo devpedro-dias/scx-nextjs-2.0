@@ -62,8 +62,8 @@ export default function QuotationClient() {
   }));
 
   return (
-    <div className="flex w-full">
-      <div className="h-auto rounded-md flex antialiased bg-transparent dark:bg-transparent dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="flex justify-=center items-center w-full">
+      <div className="h-auto rounded-md flex antialiased bg-transparent dark:bg-transparent dark:bg-grid-white/[0.05] items-center justify-center overflow-hidden">
         <InfiniteMovingCards items={items} direction="right" speed="fast" />
       </div>
     </div>
