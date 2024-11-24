@@ -1,10 +1,6 @@
 "use client";
 import Contact from "@/app/_components/Contact";
 import LogisticsSection from "@/app/_components/LogisticsSection";
-<<<<<<< HEAD
-=======
-import { HoverEffect } from "@/app/_components/ui/card-hover-effect";
->>>>>>> 312b74bc3b719822e1d493c52df253e392f4735b
 import { TextGenerateEffect } from "@/app/_components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
