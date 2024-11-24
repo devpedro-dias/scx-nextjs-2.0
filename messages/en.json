@@ -9,7 +9,7 @@
         "Contato": "Contact",
         "quotation": {
             "warning": "*On weekend not work"
-        }   
+        }
     },
     "Home": {
         "h1": "Welcome to SCX",
@@ -54,6 +54,43 @@
                 "mdic": "MDIC"
             },
             "developed-by": "Developed by"
+        }
+    },
+    "air-freight": {
+        "hero": {
+            "title": "Air Freight"
+        },
+        "about": {
+            "paragraph1": "We offer a wide range of consolidated air freight forwarding services to most destinations around the world. Our comprehensive network of international services, combined with our team of world-class professionals, is ready to meet all your air freight needs, including cargo pickup, customs clearance, delivery, and distribution.",
+            "paragraph2": "Our globally scheduled and reliable consolidation services, as well as door-to-door transportation, ensure short delivery times with the security and reliability your business demands. We also offer air charter services, as needed, for emergency situations, shipments of unusual sizes and shapes, or when you require an unscheduled air freight shipment.",
+            "paragraph3": "By combining advanced logistics with the speed provided by air transportation, we offer the most modern solutions for your unique transportation challenges."
+        },
+        "logistics": {
+            "title": "Our advanced logistics and services include:",
+            "door-to-door-service": {
+                "title": "Door-to-Door Service",
+                "description": "Our door-to-door service ensures direct pickup and delivery of goods to the final destination, providing convenience and efficiency. This service eliminates the need for intermediaries, reducing time and costs associated with transportation."
+            },
+            "direct-and-consolidated-transport": {
+                "title": "Direct and Consolidated Transport",
+                "description": "We offer direct and consolidated transport for import and export, optimizing logistics and reducing costs. Consolidated transport allows multiple shipments to be combined into a single shipment, making the process more economical."
+            },
+            "hazardous-goods-transport": {
+                "title": "Hazardous Goods Transport",
+                "description": "We specialize in the transportation of hazardous goods, following strict safety standards. Our professionals are trained to handle and transport hazardous materials in accordance with international regulations, ensuring safety throughout the process."
+            },
+            "perishable-goods-transport": {
+                "title": "Perishable Goods Transport",
+                "description": "We offer specialized solutions for the transportation of perishable goods, ensuring that sensitive products, such as food and flowers, arrive at their destination in perfect condition. We use temperature control technologies and monitoring to maintain the quality of the products."
+            },
+            "pharmaceutical-transport": {
+                "title": "Pharmaceutical Transport",
+                "description": "For the pharmaceutical industry, we provide specific transport solutions that maintain the integrity of products throughout the process. We use special packaging and temperature-controlled conditions to ensure that medicines and biological products are delivered safely and effectively."
+            },
+            "packaging-services": {
+                "title": "Packaging Services",
+                "description": "Our packaging services ensure that all goods are securely and appropriately packed for transportation. We use high-quality materials and advanced packaging techniques to protect products from damage during transport, ensuring they arrive in perfect condition at their final destination."
+            }
         }
     }
 }

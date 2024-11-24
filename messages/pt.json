@@ -55,5 +55,42 @@
             },
             "developed-by": "Desenvolvido por"
         }
+    },
+    "air-freight": {
+        "hero": {
+            "title": "Frete Aéreo"
+        },
+        "about": {
+            "paragraph1": "Oferecemos uma ampla gama de serviços consolidados de encaminhamento de frete aéreo para a maioria dos destinos ao redor do mundo. Nossa rede abrangente de serviços internacionais, aliada à nossa equipe de profissionais de classe mundial, está preparada para atender todas as suas necessidades de frete aéreo, incluindo operações de retirada de mercadoria, desembaraço aduaneiro, entrega e distribuição.",
+            "paragraph2": "Nossos serviços de consolidação confiáveis e programados globalmente, bem como o transporte porta a porta, garantem tempos de entrega curtos com a segurança e a confiabilidade que seu negócio exige. Também oferecemos serviços de fretamento aéreo, conforme necessário, para situações de emergência, remessas de tamanhos e formas incomuns ou para quando você precisar de uma remessa não programada de frete aéreo.",
+            "paragraph3": "Combinando logística avançada e a rapidez proporcionada pelo transporte aéreo, oferecemos as soluções mais modernas para seus desafios exclusivos de transporte."
+        },
+        "logistics": {
+            "title": "Nossa logística avançada e serviços incluem:",
+            "door-to-door-service": {
+                "title": "Serviço Porta a Porta",
+                "description": "Nosso serviço de porta a porta garante a coleta e entrega direta das mercadorias no destino final, proporcionando conveniência e eficiência. Este serviço elimina a necessidade de intermediários, reduzindo o tempo e os custos associados ao transporte."
+            },
+            "direct-and-consolidated-transport": {
+                "title": "Transporte Direto e Consolidado",
+                "description": "Oferecemos transporte direto e consolidado para importação e exportação, otimizando a logística e reduzindo custos. O transporte consolidado permite que várias remessas sejam combinadas em um único envio, tornando o processo mais econômico."
+            },
+            "hazardous-goods-transport": {
+                "title": "Transporte de Mercadorias Perigosas",
+                "description": "Somos especializados no transporte de mercadorias perigosas, seguindo rigorosos padrões de segurança. Nossos profissionais são treinados para manusear e transportar materiais perigosos de acordo com as regulamentações internacionais, garantindo a segurança durante todo o processo."
+            },
+            "perishable-goods-transport": {
+                "title": "Transporte de Mercadorias Perecíveis",
+                "description": "Oferecemos soluções especializadas para o transporte de mercadorias perecíveis, assegurando que produtos sensíveis, como alimentos e flores, cheguem ao destino em perfeitas condições. Utilizamos tecnologias de controle de temperatura e monitoramento para manter a qualidade dos produtos."
+            },
+            "pharmaceutical-transport": {
+                "title": "Transporte de Produtos Farmacêuticos",
+                "description": "Para a indústria farmacêutica, disponibilizamos soluções de transporte específicas que mantêm a integridade dos produtos durante todo o processo. Utilizamos embalagens especiais e condições controladas de temperatura para garantir que medicamentos e produtos biológicos sejam entregues de forma segura e eficaz."
+            },
+            "packaging-services": {
+                "title": "Serviços de Embalagem",
+                "description": "Nossos serviços de embalagem garantem que todas as mercadorias sejam acondicionadas de forma segura e adequada para o transporte. Utilizamos materiais de alta qualidade e técnicas avançadas de embalagem para proteger os produtos contra danos durante o transporte, assegurando que cheguem em perfeitas condições ao destino final."
+            }
+        }
     }
 }
