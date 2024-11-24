@@ -1,7 +1,6 @@
 "use client";
 import Contact from "@/app/_components/Contact";
 import LogisticsSection from "@/app/_components/LogisticsSection";
-import { HoverEffect } from "@/app/_components/ui/card-hover-effect";
 import { TextGenerateEffect } from "@/app/_components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
