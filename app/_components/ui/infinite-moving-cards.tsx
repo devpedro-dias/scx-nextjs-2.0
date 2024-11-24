@@ -2,7 +2,7 @@
 
 import { cn } from "@/app/_lib/utils";
 import { useTranslations } from "next-intl";
-import React, { use, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
   items,

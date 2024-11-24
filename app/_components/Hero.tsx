@@ -3,9 +3,9 @@ import { ImagesSliderhero } from './ImageSliderHero'
 
 const Hero = () => {
   return (
-    <div>
+    <section>
         <ImagesSliderhero />
-    </div>
+    </section>
   )
 }
 
