@@ -33,7 +33,7 @@ export default async function LocaleLayout({
  
   return (
     <html lang={locale} className={inter.className}>
-      <body className='antialiased'>
+      <body className='antialiased overflow-x-hidden'>
       <ThemeProvider
             attribute="class"
             defaultTheme="white"
