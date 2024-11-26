@@ -8,7 +8,7 @@
         "Seguro de Carga": "Cargo Insurance",
         "Contato": "Contact",
         "quotation": {
-            "warning": "*On weekend not work"
+            "warning": "*Only during business hours."
         }
     },
     "Home": {
