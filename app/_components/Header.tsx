@@ -41,7 +41,7 @@ const Header = () => {
                             className="display-block"
                         />
                         <div className="flex flex-col items-left justify-center text-primary">
-                            <span className="text-4xl md:text-5xl font-semibold">SCX</span>
+                            <span className="text-3xl md:text-5xl font-semibold">SCX</span>
                             <span className="text-md md:text-xl font-semibold">
                                 Agenciamentos Marítimos
                             </span>

@@ -9,7 +9,7 @@ export default function Home() {
   const t = useTranslations("Home");
 
   return (
-    <main className="flex flex-col gap-10">
+    <main className="flex flex-col gap-10 overflow-hidden">
       <Hero />
       <Services />
       <Contact />
