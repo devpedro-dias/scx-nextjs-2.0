@@ -33,7 +33,6 @@ export default function QuotationClient() {
   if (!usdData || !eurData)
     return <div className="text-center"></div>;
 
-  // Estrutura de dados das moedas
   const currencies = [
     {
       id: "USDBRL",
@@ -53,12 +52,18 @@ export default function QuotationClient() {
     },
   ];
 
-  const items = currencies.map((currency) => ({
-    img: currency.image,
-    codes: `${currency.code} / BRL`,
-    ask: `R$ ${parseFloat(currency.ask).toFixed(2)}`,
-    bid: `R$ ${parseFloat(currency.bid).toFixed(2)}`,
-  }));
+  const items = currencies.map((currency) => {
+    const ask = parseFloat(currency.ask);
+    const bid = parseFloat(currency.bid);
+  
+    return {
+      img: currency.image,
+      codes: `${currency.code} / BRL`,
+      ask: !isNaN(ask) ? `R$ ${ask.toFixed(2)}` : "R$ -.--",
+      bid: !isNaN(bid) ? `R$ ${bid.toFixed(2)}` : "R$ -.--", 
+    };
+  });
+  
 
   return (
     <div className="flex justify-center items-center w-full">
