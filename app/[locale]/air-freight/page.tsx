@@ -1,6 +1,6 @@
 "use client";
 import Contact from "@/app/_components/Contact";
-import LogisticsSection from "@/app/_components/LogisticsSection";
+import AirFreightLogistics from "@/app/_components/_page-sections/AirFreightLogistics";
 import { TextGenerateEffect } from "@/app/_components/ui/text-generate-effect";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
@@ -21,7 +21,7 @@ const AirFreight = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 text-lg">
           {[1, 2, 3].map((i) => (
             <p key={`about-paragraph-${i}`}>{t(`about.paragraph${i}`)}</p>
           ))}
@@ -29,13 +29,13 @@ const AirFreight = () => {
       </motion.div>
 
       <section className="bg-primary dark:bg-[#31859B] mt-10">
-        <div className="max-w-[80%] mx-auto py-10">
-          <h2 className="text-center dark:text-[#EEEEEE] text-background text-2xl md:text-3xl font-semibold leading-snug tracking-wide">
+        <div className="max-w-[80%] mx-auto pt-16">
+          <h2 className="text-center dark:text-[#EEEEEE] text-background text-2xl font-semibold leading-snug tracking-wide">
             {t("logistics.title")}
           </h2>
 
           <div>
-            <LogisticsSection />
+            <AirFreightLogistics />
           </div>
         </div>
       </section>

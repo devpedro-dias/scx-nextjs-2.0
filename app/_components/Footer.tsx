@@ -10,11 +10,11 @@ const Footer = () => {
   const locale = useLocale();
 
   return (
-    <section className="bg-gradient-to-br from-primary to-primary-foreground dark:bg-gradient-to-tl dark:to-[#31859B] dark:from-[#0D333D]">
-      <div className="flex flex-col lg:flex-row p-10 items-center justify-center lg:justify-between text-background lg:max-w-[90%] xl:max-w-[80%] mx-auto gap-10 lg:gap-6">
+    <section className="bg-gradient-to-br from-primary to-primary-foreground dark:bg-gradient-to-tl dark:to-[#31859B] dark:from-[#0D333D] pt-10">
+      <div className="flex flex-col lg:flex-row items-center justify-center lg:justify-between text-background lg:max-w-[90%] xl:max-w-[80%] mx-auto gap-10 lg:gap-6">
         <div className="flex flex-col items-center lg:items-start text-center lg:text-start gap-10 dark:text-[#EEEEEE]">
           <div>
-            <h1 className="text-2xl lg:text-xl">
+            <h1 className="text-2xl lg:text-xl font-bold">
               {t("Home.footer.navigation")}
             </h1>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center lg:items-start justify-start text-center lg:mb-auto lg:text-start gap-10 dark:text-[#EEEEEE]">
           <div>
-            <h1 className="text-2xl lg:text-xl">{t("Home.footer.contact")}</h1>
+            <h1 className="text-2xl lg:text-xl font-bold">{t("Home.footer.contact")}</h1>
           </div>
           <div className="flex flex-col gap-2 text-lg lg:text-base">
             <p>+55 (13) 3321-5574</p>
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center lg:items-start lg:mb-auto text-center lg:text-start gap-10 dark:text-[#EEEEEE]">
           <div>
-            <h1 className="text-2xl lg:text-xl">
+            <h1 className="text-2xl lg:text-xl font-bold">
               {t("Home.footer.social-medias")}
             </h1>
           </div>
@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div className="flex flex-col items-center lg:items-start text-center lg:text-start gap-10 dark:text-[#EEEEEE]">
           <div>
-            <h1 className="text-2xl lg:text-xl">
+            <h1 className="text-2xl lg:text-xl font-bold">
               {t("Home.footer.add-infos.title")}
             </h1>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center text-center lg:text-start gap-1 font-extralight text-background py-4">
+      <div className="flex items-center justify-center text-center lg:text-start gap-1 font-extralight text-background py-6">
         <p className="text-background dark:text-[#EEEEEE]">Copyright &copy; 2024</p>
 
         <div className="flex gap-1">

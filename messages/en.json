@@ -15,39 +15,39 @@
         "h1": "Welcome to SCX",
         "hero": {
             "title": "Welcome to",
-            "subtitle": "SCX Agenciamentos Marítimos",
-            "desc": "In SCX Agenciamentos Marítimos, we offer efficient and reliable transportation solutions for all your transportation needs in all the continents of the world."
+            "subtitle": "SCX Maritime Agency",
+            "desc": "At SCX MARITIME AGENCY, through our experience in transportation, we provide efficient solutions for cargo transport across all continents quickly and effectively."
         },
         "services": {
-            "freight_title": "The SCX Agenciamentos Department is divided into several subdivisions to ensure a high-quality service to our customers.",
+            "freight_title": "SCX's freight department is divided into several subdivisions to ensure quality service for our clients.",
             "freight_description": "Flexibility and efficiency.",
-            "insurance_title": "Insurance and complete logistical support for your cargo.",
-            "insurance_description": "We ensure total protection for your goods.",
+            "insurance_title": "Insurance and full logistics support for your cargo.",
+            "insurance_description": "We guarantee full protection for your goods.",
             "customer_focus_title": "We are a company focused on customer satisfaction, safety, and quality.",
             "customer_focus_description": "We value efficiency and punctuality.",
-            "specialized_team_title": "Our specialized team ensures your cargo arrives on time and with complete safety.",
-            "specialized_team_description": "We are committed to offering comprehensive logistics support.",
-            "international_logistics_title": "Comprehensive solutions for international logistics.",
+            "specialized_team_title": "Our specialized team ensures that your cargo reaches its destination on time and with complete safety.",
+            "specialized_team_description": "We provide complete logistics support.",
+            "international_logistics_title": "Complete solutions for international logistics.",
             "international_logistics_description": "We have a specialized team to meet your needs.",
-            "email_copied": "Email was copied!",
+            "email_copied": "Email copied!",
             "copy_email": "Copy email"
         },
         "contact": {
-            "title": "Get in Touch with Our Team",
-            "content-1": "Our experienced professionals ensure the swift and efficient clearance of goods through our electronic customs clearance network. We are committed to providing consistent and reliable services in a timely and professional manner.",
-            "content-2": "SCX AGENCIAMENTOS covers all major global airports, offering quality services at competitive rates. We maintain partnerships with various qualified companies committed to providing safe, efficient, and timely services worldwide.",
-            "content-3": "If you are interested in our rates, request a quote. We will respond within 24 hours. Please note that we also offer solutions for optimizing your logistics.",
-            "button": "Contact Us"
+            "title": "Contact our team",
+            "content-1": "Our experienced professionals ensure the rapid and efficient clearance of goods through our electronic customs clearance network. We are committed to providing consistent and reliable services in a timely and professional manner.",
+            "content-2": "SCX AGENCIAMENTOS covers all major global airports, providing quality services and competitive prices. We maintain partnerships with various qualified companies committed to delivering safe, efficient, and punctual services worldwide.",
+            "content-3": "If you're interested in our rates, request a quotation. We will respond within 24 hours. Please note that we also offer solutions to optimize your logistics.",
+            "button": "Get in touch"
         },
         "footer": {
             "navigation": "Navigation",
             "contact": "Contact",
-            "social-medias": "Social Medias",
+            "social-medias": "Social Media",
             "add-infos": {
-                "title": "Additional Informations",
+                "title": "Additional Information",
                 "siscomex": "Siscomex Portal",
-                "central-bank": "Brazil Central Bank",
-                "federal-revenue": "Federal Revenue Service",
+                "central-bank": "Central Bank of Brazil",
+                "federal-revenue": "Federal Revenue",
                 "anvisa": "Anvisa",
                 "vigiagro": "Vigiagro",
                 "inmetro": "Inmetro",
@@ -61,35 +61,170 @@
             "title": "Air Freight"
         },
         "about": {
-            "paragraph1": "We offer a wide range of consolidated air freight forwarding services to most destinations around the world. Our comprehensive network of international services, combined with our team of world-class professionals, is ready to meet all your air freight needs, including cargo pickup, customs clearance, delivery, and distribution.",
-            "paragraph2": "Our globally scheduled and reliable consolidation services, as well as door-to-door transportation, ensure short delivery times with the security and reliability your business demands. We also offer air charter services, as needed, for emergency situations, shipments of unusual sizes and shapes, or when you require an unscheduled air freight shipment.",
-            "paragraph3": "By combining advanced logistics with the speed provided by air transportation, we offer the most modern solutions for your unique transportation challenges."
+            "paragraph1": "We offer a wide range of established air freight forwarding services to most destinations worldwide. Our comprehensive international service network, combined with our world-class team of professionals, is ready to meet all your air freight needs, including goods pick-up, customs clearance, delivery, and distribution.",
+            "paragraph2": "Our reliable and globally scheduled consolidation services, as well as door-to-door transportation, ensure short delivery times with the safety and reliability your business demands. We also offer chartered air services when needed for emergency situations, shipments of unusual sizes and shapes, or for when you require an unscheduled air freight shipment.",
+            "paragraph3": "By combining advanced logistics and the speed provided by air transport, we offer the most modern solutions to your unique transport challenges."
         },
         "logistics": {
-            "title": "Our advanced logistics and services include:",
+            "title": "Our advanced logistics, combined with the speed that air transport provides, allows us to offer the latest available solutions for your unique transportation challenges. Our comprehensive services include:",
             "door-to-door-service": {
                 "title": "Door-to-Door Service",
-                "description": "Our door-to-door service ensures direct pickup and delivery of goods to the final destination, providing convenience and efficiency. This service eliminates the need for intermediaries, reducing time and costs associated with transportation."
+                "description": "Pick-up and delivery directly to the final destination, eliminating intermediaries and reducing transport costs and time. With this service, logistics is simplified, ensuring that goods reach their final destination quickly and without complications."
             },
             "direct-and-consolidated-transport": {
                 "title": "Direct and Consolidated Transport",
-                "description": "We offer direct and consolidated transport for import and export, optimizing logistics and reducing costs. Consolidated transport allows multiple shipments to be combined into a single shipment, making the process more economical."
+                "description": "We offer direct or consolidated transport, combining multiple shipments into a single consignment for greater cost savings. Consolidated transport is ideal for smaller shipments, while direct transport is suitable for urgent or valuable cargo that requires speed and security."
             },
             "hazardous-goods-transport": {
                 "title": "Hazardous Goods Transport",
-                "description": "We specialize in the transportation of hazardous goods, following strict safety standards. Our professionals are trained to handle and transport hazardous materials in accordance with international regulations, ensuring safety throughout the process."
+                "description": "Specialized in transporting hazardous goods safely and in compliance with international regulations. We ensure that all safety measures are strictly followed to ensure your hazardous products reach their destination without incidents."
             },
             "perishable-goods-transport": {
                 "title": "Perishable Goods Transport",
-                "description": "We offer specialized solutions for the transportation of perishable goods, ensuring that sensitive products, such as food and flowers, arrive at their destination in perfect condition. We use temperature control technologies and monitoring to maintain the quality of the products."
+                "description": "We transport perishable goods, such as food and flowers, with temperature control to preserve quality. We use refrigerated containers and advanced technology to ensure your products arrive fresh and in perfect condition."
             },
             "pharmaceutical-transport": {
-                "title": "Pharmaceutical Transport",
-                "description": "For the pharmaceutical industry, we provide specific transport solutions that maintain the integrity of products throughout the process. We use special packaging and temperature-controlled conditions to ensure that medicines and biological products are delivered safely and effectively."
+                "title": "Pharmaceutical Products Transport",
+                "description": "Safe solutions for transporting medicines and biological products, ensuring ideal conditions during transport. We ensure compliance with international regulations and provide continuous monitoring of temperature and the integrity of goods."
             },
             "packaging-services": {
                 "title": "Packaging Services",
-                "description": "Our packaging services ensure that all goods are securely and appropriately packed for transportation. We use high-quality materials and advanced packaging techniques to protect products from damage during transport, ensuring they arrive in perfect condition at their final destination."
+                "description": "We pack goods with quality materials to protect them and ensure they arrive in perfect condition. We offer customized packaging solutions for different types of cargo, focusing on safety and efficiency in transport."
+            }
+        }
+    },
+    "sea-freight": {
+        "hero": {
+            "title": "Sea Freight"
+        },
+        "about": {
+            "paragraph1": "With a wealth of experience in moving goods through our sea freight services, SCX MARITIME AGENCY is fully equipped to handle your shipments. We offer sea freight and fully customized services with competitive rates and quick transit times for all of our clients.",
+            "paragraph2": "Our sea freight services cover both FCL and LCL services. With our extensive expertise in customs clearance, your formalities can be handled as needed, including immediate, reliable, and professional assistance.",
+            "paragraph3": "Additionally, with a global network of partners and agents, we ensure flexible and efficient solutions for goods transport, regardless of the destination. Our highly skilled team monitors your cargo throughout the process, offering full transparency and control over the shipment, providing a worry-free experience for our clients."
+        },
+        "logistics": {
+            "title": "We offer a full range of import and export sea freight services, including:",
+            "less-than-container-loads": {
+                "title": "Less-than-Container Loads (LCL)",
+                "description": "This maritime transport service is ideal for companies with smaller shipments that do not fill an entire container. LCL allows multiple shipments from different customers to be consolidated into a single container, providing a cost-effective solution. By sharing the transport cost, companies can significantly reduce shipping costs for smaller loads while ensuring safe and efficient transport."
+            },
+            "full-container-loads": {
+                "title": "Full Container Loads (FCL)",
+                "description": "FCL is perfect for customers who have large volumes enough to fill an entire container. This service offers greater control and security, as the cargo is not mixed with other products, minimizing the risks of damage and loss. Additionally, customers have the flexibility to choose shipping times and delivery terms, which can optimize transit time and logistics costs."
+            },
+            "door-to-door-service": {
+                "title": "Door-to-Door Service",
+                "description": "With our door-to-door service, we ensure that your cargo is picked up from the point of origin and delivered directly to the final destination, with no need for intermediaries. This comprehensive service covers all aspects of transport, including land transportation, customs clearance, and delivery, providing convenience and efficiency. By using this service, your company can rely on a simple and hassle-free process, eliminating concerns about different stages of transport."
+            },
+            "project-cargo": {
+                "title": "Project Cargo",
+                "description": "When it comes to large or heavy goods, such as industrial equipment, construction parts, or machinery, project cargo logistics comes into play. This service requires detailed planning, as each shipment is unique and may require special equipment or dedicated transport. We coordinate every step of the operation, from loading to final delivery, ensuring all technical requirements are met to guarantee the safety and timely delivery."
+            },
+            "ro-ro": {
+                "title": "Ro-Ro",
+                "description": "Ro-Ro (Roll-on/Roll-off) transport is ideal for wheeled vehicles and equipment, such as cars, trucks, and heavy machinery. In this process, the cargo is driven directly onto the ship, facilitating quick and efficient loading and unloading. Ro-Ro is an efficient solution for large volumes of vehicles, providing a fast and secure alternative for transporting heavy equipment by sea."
+            },
+            "break-bulk": {
+                "title": "Break Bulk",
+                "description": "Break bulk service is used for large or irregularly shaped cargo that cannot be accommodated in standard containers, such as large construction parts, heavy machinery, or cargo requiring special measures. With this service, cargo is transported individually, using cranes or other specialized equipment for handling. This type of transport requires detailed logistics to ensure the safety and timely delivery of the goods."
+            }
+        }
+    },
+    "road-transport": {
+        "hero": {
+            "title": "Road Transport"
+        },
+        "about": {
+            "paragraph1": "Our transport services are fully integrated into the entire logistics chain, managing risks and ensuring greater security and traceability of goods.",
+            "paragraph2": "We serve the entire national territory, with our own structure and partners. This activity involves collecting, transporting, and distributing goods between central hubs within ideal timeframes to meet customer needs.",
+            "paragraph3": "For greater comfort, we provide exclusive door-to-door transport and deliveries. Our services are performed with properly selected vehicles, ensuring higher quality in service delivery. For added security, the company uses satellite tracking systems with constant monitoring and maintains appropriate insurance policies for all transported cargo."
+        },
+        "logistics": {
+            "title": "Our specialized warehousing service can be performed in our distribution centers or at your facilities, with diverse activities including:",
+            "receiving": {
+                "title": "Receiving",
+                "description": "The initial process of verifying and registering incoming goods, ensuring that all items match the order and are in perfect condition. We conduct a thorough inspection of each shipment to ensure accuracy and avoid damage."
+            },
+            "storage": {
+                "title": "Storage",
+                "description": "Organizing goods in secure, well-planned spaces to optimize location use and facilitate easy access when needed. We use inventory management systems to maximize efficiency and ensure that items are ready for quick distribution."
+            },
+            "handling": {
+                "title": "Handling",
+                "description": "Efficient movement of products within the warehouse, using appropriate equipment and techniques to ensure safety and agility. Our team is trained to handle different types and sizes of cargo, ensuring product integrity."
+            },
+            "picking-and-packing": {
+                "title": "Picking & Packing",
+                "description": "Accurate sorting of products for each order, followed by proper packaging for safe transport and high-quality delivery to the customer. We ensure operational accuracy to avoid errors and delays in deliveries."
+            },
+            "shipping": {
+                "title": "Shipping",
+                "description": "The final preparation and dispatch of goods to their destination, ensuring they arrive on time and in perfect condition. Our team coordinates all stages of the process to ensure that shipping is completed efficiently and on schedule."
+            },
+            "inventory-management": {
+                "title": "Inventory Management (VMI)",
+                "description": "Continuous monitoring and control of inventory levels to ensure product availability, preventing shortages or overstocking. We utilize cutting-edge technology to provide real-time visibility and improve inventory management."
+            }
+        }
+    },
+    "customs-clearance": {
+        "hero": {
+            "title": "Customs Clearance"
+        },
+        "about": {
+            "paragraph1": "We offer a comprehensive and complete customs clearance service. Our customs broker services, local road transport, and warehousing are integrated with our import and export operations, providing full visibility and forecasting of cargo release, from internal transit to final delivery. This integration allows for efficient and transparent management, ensuring that all stages of the process are effectively completed.",
+            "paragraph2": "SCX Maritime Agency helps our clients navigate complex trade regulations successfully, avoiding additional costs and delays. Our team of experts is ready to manage customs processes, from required documentation to inspection and clearance of goods. We work to ensure that all operations comply with current regulations, providing peace of mind and security to our clients.",
+            "paragraph3": "Additionally, our proactive approach allows continuous assessment of compliance, ensuring that services are accurate, precise, and timely. With SCX Maritime Agency, you can rely on efficient customs management that minimizes risks and maximizes operational efficiency, facilitating your foreign trade operations."
+        },
+        "logistics": {
+            "title": "With SCX AGENCIAMENTOS, you can count on efficient customs management that minimizes risks and maximizes operational efficiency, facilitating your foreign trade operations. Some of our tasks include:",
+            "foreign-trade-consulting": {
+                "title": "Foreign Trade Consulting",
+                "description": "Specialized support to assist your company in import and export operations, ensuring compliance and efficiency. Our consulting helps resolve complex issues and avoids errors that may result in fines or delays."
+            },
+            "tariff-classification": {
+                "title": "Tariff Classification - NCM",
+                "description": "Correct identification of goods according to the Common Nomenclature of Mercosur, essential for tax calculations and regulations. Proper classification can prevent fiscal problems and optimize import and export costs."
+            },
+            "special-customs-regime": {
+                "title": "Special Customs Regime",
+                "description": "Consulting for the use of special customs regimes that offer fiscal and logistical benefits to your operation. We advise on the best options to reduce costs and optimize processes."
+            },
+            "document-preparation": {
+                "title": "Document Preparation and Review",
+                "description": "Preparation and verification of essential import and export documents, ensuring accuracy and legal compliance. We handle all required documents to ensure everything is in order to avoid delays or fines."
+            },
+            "lpco": {
+                "title": "LPCO (Licenses, Permits, and Certificates)",
+                "description": "Management of licenses, certificates, and mandatory documents for cargo clearance in international operations. We ensure that all legal requirements are met, ensuring the release of goods without issues."
+            },
+            "duimp-and-due": {
+                "title": "DUIMP and DU-E Registrations",
+                "description": "Filling out and tracking the unique import and export declarations, speeding up the customs clearance process. We help ensure that all declarations are filled out correctly and submitted on time."
+            }
+        }
+    },
+    "cargo-insurance": {
+        "hero": {
+            "title": "Cargo Insurance"
+        },
+        "about": {
+            "paragraph1": "To safeguard your goods and assets during transport, SCX offers tailored cargo insurance options that cover potential risks from accidents, theft, and damage. With a deep understanding of the logistics and insurance industries, we offer extensive coverage to protect your cargo from unforeseen incidents.",
+            "paragraph2": "Our experienced team is committed to offering insurance solutions that suit the specific needs of each client, from basic coverage to more extensive options for high-value goods or specialized transport. We work with reputable insurance companies to ensure your cargo is protected at all times, giving you peace of mind and minimizing the impact of potential risks."
+        },
+        "logistics": {
+            "title": "Our cargo insurance options include:",
+            "standard-coverage": {
+                "title": "Standard Coverage",
+                "description": "This coverage option protects against standard risks during the transport process, including damage and theft. It is ideal for regular shipments and offers essential protection for general cargo."
+            },
+            "all-risk-coverage": {
+                "title": "All-Risk Coverage",
+                "description": "All-risk coverage offers the most comprehensive protection, covering a wide range of potential risks, including damage, theft, natural disasters, and accidents. It is ideal for high-value or sensitive cargo that requires extra security during transit."
+            },
+            "project-cargo-coverage": {
+                "title": "Project Cargo Coverage",
+                "description": "Tailored insurance for large, heavy, or oversized cargo that may require specialized handling or transport. This coverage is designed to mitigate risks associated with transporting complex and high-value project cargo."
             }
         }
     }

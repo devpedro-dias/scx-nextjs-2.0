@@ -1,16 +1,16 @@
 import { useTranslations } from "next-intl";
-import { HoverEffect } from "./ui/card-hover-effect";
+import { HoverEffect } from "../ui/card-hover-effect";
 
-export default function LogisticsSection() {
-  const t = useTranslations("air-freight");
+export default function RoadTransportLogistics() {
+  const t = useTranslations("road-transport");
 
   const logisticsKeys = [
-    "door-to-door-service",
-    "direct-and-consolidated-transport",
-    "hazardous-goods-transport",
-    "perishable-goods-transport",
-    "pharmaceutical-transport",
-    "packaging-services",
+    "receiving",
+    "storage",
+    "handling",
+    "picking-and-packing",
+    "shipping",
+    "inventory-management",
   ];
 
   const logisticsItems = logisticsKeys.map((key) => ({

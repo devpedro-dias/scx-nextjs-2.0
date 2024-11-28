@@ -18,13 +18,13 @@ const Contact = () => {
         whileInView={{ opacity: 1, y:0 }}
         transition={{duration: 1}}
         viewport={{root: scrollRef }}
-        className='flex flex-col gap-10 items-center justify-center w-full h-full max-w-[80%] mx-auto'
+        className='flex flex-col gap-10 items-center justify-center w-full h-full max-w-[80%] mx-auto mt-10 mb-5'
         >
             <div className='text-primary text-4xl text-center'>
                 <h1>{t("contact.title")}</h1>
             </div>
 
-            <div className='flex flex-col gap-10 text-primary text-justify text-lg items-center'>
+            <div className='flex flex-col gap-4 text-primary text-justify text-lg'>
                 <p>{t("contact.content-1")}</p>
 
                 <p>{t("contact.content-2")}</p>
