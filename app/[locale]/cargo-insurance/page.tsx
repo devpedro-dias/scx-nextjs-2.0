@@ -1,5 +1,5 @@
 "use client";
-import Contact from "@/app/_components/Contact";
+import Contact from "@/app/_components/ContactHandler";
 import CargoInsuranceLogistics from "@/app/_components/_page-sections/CargoInsuranceBenefits";
 import { TextGenerateEffect } from "@/app/_components/ui/text-generate-effect";
 import { motion } from "framer-motion";

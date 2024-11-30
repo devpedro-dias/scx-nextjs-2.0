@@ -243,5 +243,31 @@
                 "description": "Ao contratar um seguro de carga, os embarcadores podem relaxar sabendo que sua carga está protegida contra uma vasta gama de riscos durante todo o trajeto. Isso reduz a necessidade de se preocupar com imprevistos durante o transporte e libera a empresa para focar em outras áreas estratégicas, como expansão de negócios e melhoria de processos. A tranquilidade vem do fato de saber que, caso algo ocorra, a compensação será rápida e eficiente."
             }
         }
+    },
+    "ContactForm": {
+        "title": "Fale Conosco",
+        "desc": "Envie sua mensagem através do nosso Formulário. Nossa equipe de especialistas está pronta para te atender.",
+        "form-title": "Envie sua mensagem",
+        "label-name": {
+            "title": "Nome"
+        },
+        "label-company": {
+            "title": "Empresa"
+        },
+        "label-phone": {
+            "title": "Telefone"
+        },
+        "label-email": {
+            "title": "E-mail",
+            "placeholder": "exemplo@exemplo.com"
+        },
+        "label-message": {
+            "title": "Mensagem",
+            "placeholder": "Digite sua mensagem aqui...",
+            "warning": "A mensagem deve ter pelo menos 10 caracteres."
+        },
+        "button-send": {
+            "title": "Enviar"
+        }
     }
 }

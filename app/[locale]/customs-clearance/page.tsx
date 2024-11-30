@@ -1,5 +1,5 @@
 "use client";
-import Contact from "@/app/_components/Contact";
+import Contact from "@/app/_components/ContactHandler";
 import CustomsClearanceLogistics from "@/app/_components/_page-sections/CustomsClearanceLogistics";
 import { TextGenerateEffect } from "@/app/_components/ui/text-generate-effect";
 import { motion } from "framer-motion";

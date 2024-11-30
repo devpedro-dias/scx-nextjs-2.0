@@ -230,5 +230,31 @@
                 "description": "Tailored insurance for large, heavy, or oversized cargo that may require specialized handling or transport. This coverage is designed to mitigate risks associated with transporting complex and high-value project cargo."
             }
         }
+    },
+    "ContactForm": {
+        "title": "Contact Us",
+        "desc": "Send us your message through our Form. Our team of experts is ready to assist you.",
+        "form-title": "Send your message",
+        "label-name": {
+            "title": "Name"
+        },
+        "label-company": {
+            "title": "Company"
+        },
+        "label-phone": {
+            "title": "Phone"
+        },
+        "label-email": {
+            "title": "Email",
+            "placeholder": "example@example.com"
+        },
+        "label-message": {
+            "title": "Message",
+            "placeholder": "Type your message here...",
+            "warning": "The message must have at least 10 characters."
+        },
+        "button-send": {
+            "title": "Send"
+        }
     }
 }

@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import React from "react";
 import Hero from "../_components/Hero";
 import Services from "../_components/Services";
-import Contact from "../_components/Contact";
+import Contact from "../_components/ContactHandler";
 
 export default function Home() {
 
