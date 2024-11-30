@@ -16,7 +16,6 @@ import { navbarItems } from "@/app/_lib";
 import { LanguageToggle } from "./LanguageToggle";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { ModeToggle } from "./ThemeToggle";
 import QuotationClient from "./QuotationClient";
 
 const Header = () => {
@@ -50,7 +49,6 @@ const Header = () => {
                 </div>
 
                 <div className="flex gap-2">
-                    <ModeToggle />
                     <LanguageToggle />
 
                     <Sheet open={isOpen} onOpenChange={setIsOpen}>

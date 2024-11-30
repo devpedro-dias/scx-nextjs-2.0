@@ -34,12 +34,6 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={inter.className}>
       <body className='antialiased overflow-x-hidden'>
-      <ThemeProvider
-            attribute="class"
-            defaultTheme="white"
-            enableSystem
-            disableTransitionOnChange
-          >
         <NextIntlClientProvider messages={messages}>
           <Header />
           <Transition>
@@ -47,7 +41,6 @@ export default async function LocaleLayout({
           </Transition>
           <Footer />
         </NextIntlClientProvider>
-        </ThemeProvider>
       </body>
     </html>
   );

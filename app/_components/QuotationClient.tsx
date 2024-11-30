@@ -59,8 +59,8 @@ export default function QuotationClient() {
     return {
       img: currency.image,
       codes: `${currency.code} / BRL`,
-      ask: !isNaN(ask) ? `R$ ${ask.toFixed(2)}` : "R$ -.--",
-      bid: !isNaN(bid) ? `R$ ${bid.toFixed(2)}` : "R$ -.--", 
+      ask: !isNaN(ask) ? `R$ ${ask.toFixed(2)}` : "R$ --.--",
+      bid: !isNaN(bid) ? `R$ ${bid.toFixed(2)}` : "R$ --.--", 
     };
   });
   

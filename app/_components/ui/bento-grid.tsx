@@ -65,10 +65,10 @@ export const BentoGridItem = ({
         backgroundColor:
           "linear-gradient(90deg, rgba(13,51,61,1) 30%, rgba(49,133,155,1) 100%)",
       }}
-      initial={{ opacity: 0, x: id % 2 === 0 ? 150 : -150 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 0.6, type: "spring" }}
-      viewport={{ once: false }}
+      initial={{ opacity: 0}}
+      whileInView={{ opacity: 1}}
+      transition={{ duration: 1, type: "spring" }}
+      viewport={{ once: true }}
     >
       <div className={`${id === 6 && "flex justify-start"} h-full`}>
         <div className="w-full h-full absolute">
